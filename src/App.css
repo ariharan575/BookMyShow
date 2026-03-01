@@ -1,0 +1,19 @@
+.overlay {
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.3s ease forwards;
+}
+.signin-container, .Location-container {
+  transform: translateY(0%);
+  animation: slideUp 0.5s ease-out forwards;
+} 
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

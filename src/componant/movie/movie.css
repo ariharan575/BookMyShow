@@ -1,0 +1,64 @@
+/* Hide mobile scrollbar */
+.mobile-scroll {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.mobile-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Main carousel container */
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Track to move horizontally */
+.carousel-track {
+  display: flex;
+  transition: transform 0.9s ease; /* smooth slide animation */
+}
+
+/* Each card width */
+.carousel-card {
+  flex: 0 0 calc(100% / 5); /* 5 cards per row */
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* Card style */
+.carousel-card .card {
+  border-radius: 10px;
+  text-align: center;
+  /* background-color: #fff; */
+}
+
+/* Arrows styling */
+.carousel-arrow {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  font-size:35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-arrow.left {
+  left:-5px;
+  background-color:rgb(70, 50, 50);
+  box-shadow: 1px 2px 4px white;
+  color: white;
+  border: none;
+}
+
+.carousel-arrow.right {
+  right: -5px;
+    background-color:rgb(70, 50, 50);
+  box-shadow: 1px 2px 4px white;
+  color: white;
+  border: none;
+}

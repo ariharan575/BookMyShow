@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    min-width: 576px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden;
+    font-family: outfit,Arial;
+ 
+}
+.carousel-card {
+  flex: 0 0 calc(100% / 5); /* 5 cards per row */
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.carousel-track {
+  transition: transform 0.9s ease; /* smooth slide animation */
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.imgcastabout img, .imgcrewabout img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+   
+}
+.imgsize{
+    margin-right: 14px;
+    align-items: center
+
+}
+.imgsize img{
+    width: 100%;
+    height: 70%;
+
+}
+.headContainer{
+    font-size: 15px;
+   
+}
+ .nContainer{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.headContainer, .nContainer small{
+     letter-spacing: 0px;
+}
+.createbut{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+li{
+    list-style: none;
+}
+.youtube{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    color: rgb(48, 48, 48);
+}
+.youtube:hover{
+    background-color: white;
+}
+
+.premireContainer{
+    background-color: rgb(46, 37, 59);
+}
+
+.clickMovieImg{
+    background-image: url();
+}
+
+
+
+
+
+
