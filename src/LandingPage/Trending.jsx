@@ -1,5 +1,5 @@
 import React from 'react'
-import moviesList from '../../datas/movieDetails'
+import moviesList from '../Datas/movieDetails'
 
 export function Trending  () {
 

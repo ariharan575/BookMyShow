@@ -1,15 +1,15 @@
 import React, { useEffect,useContext } from 'react'
-import  Header  from '../header/Header'
-import { Navbar } from '../navbar/Navbar'
-import {Event} from '../event/Event'
-import  Premire  from '../premiere/Premire'
-import { Footer } from '../footer/Footer'
-import { Trending } from '../trending/Trending'
-import { Carousel } from '../content/Carousel'
-import  Movie  from '../movie/Movie'
-import { locContext } from '../../App'
+import  Header  from './Header'
+import { Navbar } from './Navbar'
+import {Event} from './Event'
+import  Premire  from './Premire'
+import { Footer } from './Footer'
+import { Trending } from './Trending'
+import { Carousel } from '../componant/Carousel'
+import  Movie  from '../Movie/MovieDetails'
+import { locContext } from '../App'
 import { useNavigate, useParams } from 'react-router-dom'
-import Example from '../Example'
+import Example from './Example'
 
 
 export const Home = () => {
@@ -27,8 +27,7 @@ useEffect(()=>{
   return (
    <>
    
-   <div className='h-[100vh]'>
-
+   <div>
    <Header  />
    <Navbar/>
    <Carousel/>

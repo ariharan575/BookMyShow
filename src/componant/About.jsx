@@ -3,7 +3,7 @@ import React from 'react'
 import { ListGroup } from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom'
 
-export const Toggle = ({toggleShow,handleClose,setSignShow}) => {
+export const About = ({toggleShow,handleClose,setSignShow}) => {
     const Navigate= useNavigate();
     function handleSignFunction () {
         handleClose(true)
@@ -46,11 +46,7 @@ export const Toggle = ({toggleShow,handleClose,setSignShow}) => {
                         <h6>Rewards</h6>
                         <small>View your rewards & unlock new ones</small>
                     </ListGroup.Item>
-                      <ListGroup.Item><h6>BookAChange</h6></ListGroup.Item>
-                    
-
-
-                    
+                      <ListGroup.Item><h6>BookAChange</h6></ListGroup.Item> 
                 </ListGroup>
             </Offcanvas.Body>
         </Offcanvas>

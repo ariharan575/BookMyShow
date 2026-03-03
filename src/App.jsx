@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 import { createContext } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import'bootstrap-icons/font/bootstrap-icons.css'
 import './App.css'
-import {Home} from './componant/home/Home'
-import {AllMovieList} from './componant/clickComponant/AllMoviesList'
-import MovieClick from './componant/clickComponant/MovieClick'
+import {Home} from './LandingPage/Home'
+import { AllMovieList } from './Movie/AllMoviesList'
+import MovieClick from './Movie/MovieClick'
 import { createBrowserRouter, createRoutesFromElements, Navigate, Route, RouterProvider } from 'react-router-dom'
+import { SearchBarMovie } from './Searchbar/SearchBarMovie'
 
 export const locContext = createContext();
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='explore/home/:city' element={<Home/>}/>
       <Route path='explore/movie/:city' element={<AllMovieList/>}/>
       <Route path='explore/movie/:city/:movies/:id' element={<MovieClick/>}/>
+      <Route path="/explore/search/:location" element={<SearchBarMovie />} />
   </>
 ))
   
