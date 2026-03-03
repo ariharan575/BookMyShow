@@ -1,16 +1,61 @@
-# React + Vite
+# 🎬 Movie & Events UI (Mini BookMyShow Inspired Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **frontend-only React project** inspired by BookMyShow UI.
+It is **not a full clone** and includes only 3–4 main pages built for learning and practice purposes.
 
-Currently, two official plugins are available:
+The project focuses on UI design, carousel functionality, responsive layout, and routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Project Overview
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application allows users to:
 
-## Expanding the ESLint configuration
+* Browse movies
+* View premiere section
+* Explore events (Outdoor, Therapy, Games, etc.)
+* Navigate to movie detail pages
+* Experience responsive carousel layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚠️ Note:
+This is a **static UI project** (no backend, no authentication, no real booking system).
+
+---
+
+## 🛠️ Built With
+
+* React.js
+* React Router DOM
+* Bootstrap 5
+* React Bootstrap
+* Vite
+* JavaScript (ES6)
+
+---
+
+## 📂 Pages Included
+
+1. 🏠 Home Page
+2. 🎞️ Movies Section
+3. 🔥 Premiere Section
+4. 📄 Movie Detail Page
+
+---
+
+## ✨ Features
+
+* Custom Carousel (5 cards per slide – Desktop)
+* Horizontal Scroll View (Mobile)
+* Responsive Design
+* Image resize using `object-fit: cover`
+* Dynamic routing with URL parameters
+* Clean component-based structure
+* Bootstrap utility styling
+
+---
+
+
+
+
+The app wi
+
