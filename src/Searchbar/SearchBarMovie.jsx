@@ -83,6 +83,7 @@ export const SearchBarMovie = () => {
 
    function openMovie(movie) {
      setSearch(movie);
+     inputRef.current.value = movie;
    }
 
   useEffect(()=>{
