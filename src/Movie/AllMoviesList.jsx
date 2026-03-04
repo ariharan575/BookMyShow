@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { locContext } from "../App";
 import { Carousel } from "../componant/Carousel";
 import { Footer } from "../LandingPage/Footer";
-import moviesList from "../datas/movieDetails";
+import movieDetails from "../datas/movieDetails";
 import { Link, useNavigate } from "react-router-dom";
 
 export const AllMovieList = () => {
@@ -32,7 +32,7 @@ export const AllMovieList = () => {
             <div>
               <h5 className="fw-bold mb-0">Now Showing</h5>
               <small className="text-muted">
-                {location} | {moviesList.length} Movies
+                {location} | {movieDetails.length} Movies
               </small>
             </div>
           </div>
@@ -56,7 +56,7 @@ export const AllMovieList = () => {
       <div className="container mb-5">
         <div className="row g-4">
 
-          {moviesList.map((movie) => (
+          {movieDetails.map((movie) => (
             <div
               key={movie.id}
               className="col-6 col-sm-4 col-md-3 col-lg-2"
