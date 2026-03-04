@@ -1,4 +1,4 @@
-export default moviesList = [
+export default movieDetails = [
   {
     "id": 1,
     "movie_name": "Idli Kadai",
