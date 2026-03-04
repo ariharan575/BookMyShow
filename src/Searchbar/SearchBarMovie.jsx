@@ -59,14 +59,14 @@ export const SearchBarMovie = () => {
   const {setLocation}= useContext(locContext);
 
   const popularSearch = [
-    "Kantara-Chapter-1",
-    "Itily Kadai",
-    "VTV",
-    "Kushi (2000)",
-    "Attagasam",
-    "Bahubali-Epic",
-    "Kgf-chapter-1",
-    "They Call Him OG"
+    "Kantara A Legend: Chapter 1",
+    "Vada Chennai",
+    "Leo",
+    "Billa 2",
+    "Vikram",
+    "Bahubali",
+    "Retro",
+    "Avatar: Fire and Ash"
   ];
 
   const [movieData,setMovieData] = useState([]);
@@ -80,6 +80,10 @@ export const SearchBarMovie = () => {
     const value1 = inputRef.current.value;
     setSearch(value1)
   }
+
+   function openMovie(movie) {
+     setSearch(movie);
+   }
 
   useEffect(()=>{
     if(! search) {
@@ -149,7 +153,7 @@ export const SearchBarMovie = () => {
             <h5 className='mb-3'>Trending Search</h5>
             {
               popularSearch.map((s,i)=>(
-                <p key={i} className='border-bottom  ps-0'>
+                <p key={i} className='border-bottom cursor-pointer ps-0' onClick={() => openMovie(s)}>
                   {s}
                 </p>
               ))
