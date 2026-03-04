@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Button, Card } from "react-bootstrap";
-import moviesList from "../Datas/movieDetails";
+import movieDetails from "../Datas/movieDetails";
 import { Link } from "react-router-dom";
 
 const cardsPerSlide = 5;
-const movies = moviesList.slice(0, 13);
+const movies = movieDetails.slice(0, 13);
 
 const Movie = () => {
   const [startIndex, setStartIndex] = useState(0);

@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Footer } from "../LandingPage/Footer";
-import moviesList from "../Datas/movieDetails";
+import movieDetails from "../Datas/movieDetails";
 
 const Movie = () => {
   const { movies, id } = useParams();
   const [apiMovie, setApiMovie] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const localMovie = moviesList.find(
+  const localMovie = movieDetails.find(
     (m) => m.movie_name === movies
   );
 
-  const movieFilter = moviesList.slice(0, 4);
+  const movieFilter = movieDetails.slice(0, 4);
 
   // Fetch OMDB Movie
   useEffect(() => {

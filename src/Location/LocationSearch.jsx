@@ -1,6 +1,6 @@
 import React, { useState,useRef, useEffect } from 'react'
 import district from '../Datas/location'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export const LocationSearch = ({popup,setLocation,setPopup}) => {
 

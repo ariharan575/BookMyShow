@@ -1,4 +1,4 @@
-const moviesList = [
+export default moviesList = [
   {
     "id": 1,
     "movie_name": "Idli Kadai",
@@ -396,6 +396,3 @@ const moviesList = [
     "votes": 75000
   }
 ]
-
-
-export default moviesList;

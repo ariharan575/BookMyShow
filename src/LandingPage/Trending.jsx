@@ -1,9 +1,9 @@
 import React from 'react'
-import moviesList from '../Datas/movieDetails'
+import movieDetails from '../Datas/movieDetails'
 
 export function Trending  () {
 
- const moviesData = moviesList.slice(0,7).sort((a,b)=>a.rating - b.rating)
+ const moviesData = movieDetails.slice(0,7).sort((a,b)=>a.rating - b.rating)
 
   return (<>
             <div className="trandingContainer d-none d-md-block m-auto mt-3 mb-5" style={{width:'100%'}}>
