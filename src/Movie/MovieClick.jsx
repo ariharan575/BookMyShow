@@ -67,7 +67,7 @@ const Movie = () => {
               </h2>
 
               <p className="bg-danger d-inline-block px-3 py-1 rounded">
-                ⭐ {movieData.rating || movieData.imdbRating} / 10
+                 {movieData.rating || movieData.imdbRating} / 10
               </p>
 
               <p className="mt-3">

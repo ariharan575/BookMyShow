@@ -28,6 +28,8 @@ This is a **static UI project** (no backend, no authentication, no real booking 
 * React Router DOM
 * Bootstrap 5
 * React Bootstrap
+* Axios
+* Omdb Api
 * Vite
 * JavaScript (ES6)
 
@@ -56,6 +58,4 @@ This is a **static UI project** (no backend, no authentication, no real booking 
 
 
 
-
-The app wi
 

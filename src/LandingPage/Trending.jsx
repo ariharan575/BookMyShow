@@ -18,7 +18,7 @@ export function Trending  () {
             }
         </div>
      </div>
-          </>
+     </>
   )
 }
   

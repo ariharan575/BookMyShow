@@ -53,7 +53,7 @@ const Movie = () => {
                 <div
                   className="carousel-card px-2"
                   key={movie?.id}
-                  style={{ minWidth: "20%" }} // 5 cards equal size
+                  style={{ minWidth: "20%" }} 
                 >
                   <Link
                     to={`/explore/movie/chennai/${movieName}/${movie?.id}`}
