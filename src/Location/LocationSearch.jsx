@@ -74,16 +74,23 @@ export const LocationSearch = ({popup,setLocation,setPopup}) => {
 
   return (
     <>
-    <div className="Location-container m-auto  mt-5 pt-3 w-100 p-3 m-auto bg-light" ref={popupRef} onClick={(e) => e.stopPropagation()}>
-      <div className="inputSearchbar d-flex align-items-center justify-content-between ps-4 pe-4 gap-2 border border-secondary-subtle p-2 " >
+    <div className="Location-container m-auto  mt-5 pt-3 w-100 p-3 m-auto bg-light" 
+         ref={popupRef} onClick={(e) => e.stopPropagation()}>
+      <div className="inputSearchbar d-flex align-items-center justify-content-between 
+                       ps-4 pe-4 gap-2 border border-secondary-subtle p-2 " >
         <div className="serachbar ">
           <i className="bi bi-search" ></i>
-        <input type="text" ref={inputRef} value={query} autoFocus onChange={HandleFunction} placeholder='Search for you city' className=' ps-3 ' style={{outline:'none',boxShadow:'none',border:'none'}} />
+          <input type="text" ref={inputRef} value={query} autoFocus  onChange={HandleFunction} 
+                             placeholder='Search for you city'  className=' ps-3 '
+                             style={{outline:'none',boxShadow:'none',border:'none'}} />
         </div>
      
-        <small className={closeBtn ? "d-block h-50 btn btn-secondary p-0 ps-2 pe-2" : "d-none"} onClick={HandleClose}>x</small>
+         <small className={closeBtn ? "d-block h-50 btn btn-secondary p-0 ps-2 pe-2" : "d-none"} onClick={HandleClose}>x</small>
+
       </div>
-      <p className="text-danger mt-3">Detect My Location</p>
+
+       <p className="text-danger mt-3">Detect My Location</p>
+       
       <div className="citiesList">
         <div className="popularCity">
           <p className="text-center">Popular Cities</p>
