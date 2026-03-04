@@ -29,6 +29,7 @@ function App() {
       <Route path='explore/movie/:city' element={<AllMovieList/>}/>
       <Route path='explore/movie/:city/:movies/:id' element={<MovieClick/>}/>
       <Route path="/explore/search/:location" element={<SearchBarMovie />} />
+      <Route path='explore/home/:city' element={<Home key={location} />} />
       <Route path='*' element={<NotFound/>}/>
   </>
 ))
