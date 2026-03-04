@@ -9,6 +9,7 @@ import { AllMovieList } from './Movie/AllMoviesList'
 import MovieClick from './Movie/MovieClick'
 import { createBrowserRouter, createRoutesFromElements, Navigate, Route, RouterProvider } from 'react-router-dom'
 import { SearchBarMovie } from './Searchbar/SearchBarMovie'
+import NotFound from './componant/NotFound'
 
 export const locContext = createContext();
 
@@ -28,6 +29,7 @@ function App() {
       <Route path='explore/movie/:city' element={<AllMovieList/>}/>
       <Route path='explore/movie/:city/:movies/:id' element={<MovieClick/>}/>
       <Route path="/explore/search/:location" element={<SearchBarMovie />} />
+      <Route path='*' element={<NotFound/>}/>
   </>
 ))
   
