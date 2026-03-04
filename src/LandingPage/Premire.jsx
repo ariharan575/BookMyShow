@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import premireData from "../datas/premireData";
+import premireData from "../Datas/premireData";
 import { Button } from "react-bootstrap";
 
 export default function Premire() {
