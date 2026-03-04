@@ -1,4 +1,4 @@
-export default movieDetails = [
+const movieDetails =  [
   {
     "id": 1,
     "movie_name": "Idli Kadai",
@@ -396,3 +396,5 @@ export default movieDetails = [
     "votes": 75000
   }
 ]
+
+export default movieDetails;
