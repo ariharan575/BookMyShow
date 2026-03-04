@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { locContext } from "../App";
 import { Carousel } from "../componant/Carousel";
 import { Footer } from "../LandingPage/Footer";
-import moviesList from "../Datas/movieDetails";
+import moviesList from "../datas/movieDetails";
 import { Link, useNavigate } from "react-router-dom";
 
 export const AllMovieList = () => {

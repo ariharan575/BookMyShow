@@ -7,7 +7,7 @@ import {
   LastPlayData,
   topGameData,
   studioData
-} from "../Datas/allData";
+} from "../datas/allData";
 import { Link } from "react-router-dom";
 
 const Example = ({ data = [], title }) => {

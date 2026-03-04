@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import SignIn from "../componant/SignIn";
 import { LocationSearch } from "../Location/LocationSearch";
 import { About } from "../componant/About";

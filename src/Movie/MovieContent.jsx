@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Card } from "react-bootstrap";
-import movieDetails from "../Datas/movieDetails";
+import movieDetails from "../datas/movieDetails";
 import { Link } from "react-router-dom";
 
 const cardsPerSlide = 5;

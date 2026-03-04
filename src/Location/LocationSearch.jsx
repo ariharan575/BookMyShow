@@ -1,5 +1,5 @@
 import React, { useState,useRef, useEffect } from 'react'
-import district from '../Datas/location'
+import district from '../datas/location'
 import { useNavigate } from 'react-router-dom';
 
 export const LocationSearch = ({popup,setLocation,setPopup}) => {

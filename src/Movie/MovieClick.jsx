@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Footer } from "../LandingPage/Footer";
-import movieDetails from "../Datas/movieDetails";
+import movieDetails from "../datas/movieDetails";
 
 const Movie = () => {
   const { movies, id } = useParams();
